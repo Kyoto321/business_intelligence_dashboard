@@ -39,7 +39,7 @@ const BarChart = ({ isDashboard = false }) => {
           },
         },
       }}
-      keys={["Cars", "Apartments", "Lands", "Equipments", "Furnitures", "Investments"]}
+      keys={["cars", "apartments", "lands", "equipments", "furnitures", "investments"]}
       indexBy="country"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
@@ -76,7 +76,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "Country", // changed
+        legend: isDashboard ? undefined : "country", // changed
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -84,7 +84,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "Capital", // changed
+        legend: isDashboard ? undefined : "capital", // changed
         legendPosition: "middle",
         legendOffset: -40,
       }}

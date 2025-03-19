@@ -10,7 +10,7 @@ const AppContextProvider = (props) => {
     const [token, setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):false)
     
 
-    const backendUrl = 'https://localhost:5000'
+    const backendUrl = '#'
 
 
     const value = {
